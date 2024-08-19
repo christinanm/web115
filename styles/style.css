@@ -3,6 +3,11 @@ body {
   background-color: lightblue;
  }
 
+header {
+  align-items: center;
+}
+
 footer {
   text-align: center;
+  text-decoration: none;
 }
