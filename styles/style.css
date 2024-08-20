@@ -3,6 +3,10 @@ body {
   background-color: lightblue;
 }
 
+header {
+  text-align: center;
+}
+
 p {
   font-family: "Poly", serif;
   text-align: center;
@@ -14,9 +18,6 @@ h2 {
 
 footer {
   text-align: center;
-  text-decoration: none;
-  border: none;
-  margin: 4px;
 }
 
 img {
@@ -24,7 +25,3 @@ img {
   display: block;
 }
 
-.menu-container {
- display: grid;
- place-items: center;
-}
