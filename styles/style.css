@@ -1,13 +1,30 @@
 body {
   color: white;
   background-color: lightblue;
- }
+}
 
-header {
-  align-items: center;
+p {
+  font-family: "Poly", serif;
+  text-align: center;
+}
+
+h2 {
+  text-align: center;
 }
 
 footer {
   text-align: center;
   text-decoration: none;
+  border: none;
+  margin: 4px;
+}
+
+img {
+  margin: auto;
+  display: block;
+}
+
+.menu-container {
+ display: grid;
+ place-items: center;
 }
