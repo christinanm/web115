@@ -7,9 +7,17 @@ header {
   text-align: center;
 }
 
-p {
+p{
   font-family: "Poly", serif;
   text-align: center;
+}
+
+a {
+  color: #00b4d8;
+}
+
+a:hover {
+  color: #0077b6
 }
 
 h2 {
