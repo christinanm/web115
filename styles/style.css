@@ -12,6 +12,13 @@ p{
   text-align: center;
 }
 
+li, ul {
+  font-family: "Poly", serif;
+  list-style-position: inside;
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
 a {
   color: #00b4d8;
 }
@@ -33,3 +40,13 @@ img {
   display: block;
 }
 
+.validation-buttons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+figcaption {
+  text-align: center;
+  color:#0077b6
+}
