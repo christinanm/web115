@@ -7,16 +7,17 @@ header {
   text-align: center;
 }
 
-p{
+p {
   font-family: "Poly", serif;
-  text-align: center;
 }
 
-li, ul {
+ul, ol {
   font-family: "Poly", serif;
   list-style-position: inside;
-  margin-left: 4rem;
-  margin-right: 4rem;
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 425px;
 }
 
 a {
@@ -26,10 +27,12 @@ a {
 
 a:hover {
   color: #0077b6
+  
 }
 
 h2 {
   text-align: center;
+  font-family: "Poly", serif;
 }
 
 footer {
@@ -41,13 +44,15 @@ img {
   display: block;
 }
 
-.validation-buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 figcaption {
   text-align: center;
-  color:#0077b6
+  color:#0077b6;
 } 
+
+.contract-container {
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 500px;
+}
+
