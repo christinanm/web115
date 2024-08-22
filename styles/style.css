@@ -30,7 +30,7 @@ a:hover {
   
 }
 
-h2, h1 {
+h2, h1, .greetings-container {
   text-align: center;
   font-family: "Poly", serif;
 }
