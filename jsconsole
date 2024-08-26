@@ -4,6 +4,8 @@
   5.6745323
 5 + 7
   12
+4 - 6
+  -2
 5 * 40
   200
 4 - (4 * 2)
@@ -16,6 +18,10 @@
   Hello there!
 3.0 / 5
   0.6
+math.pow(5, 6)
+  {math is not defined}
+Math.POW(0.75, 60)
+  {Math.POW is not a function}
 Math.pow(2, 4);
   16
 Math.PI
@@ -60,7 +66,23 @@ Math.max (0.1, 0.333, 5)
   5
 typeof(5.6)
   number
+typeof(5 ** 6)
+  number
+typeof(5 - 7)
+  number
 typeof("Hello")
   string
 typeof("Hello " + 5)
   string
+typeof(true)
+  boolean
+typeof(false)
+  boolean
+"high" + 5
+  high5
+var response = prompt("What is the name of your cat?")
+  undefined
+response
+  Anubis
+response + ", my best friend."
+  Anubis, my best friend.
