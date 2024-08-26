@@ -1,3 +1,8 @@
+**
+
+
+
+
 3
   3
 5.6745323
@@ -15,7 +20,7 @@
 3 % 6
   3
 "Hello " + "there!"
-  Hello there!
+  "Hello there!"
 3.0 / 5
   0.6
 math.pow(5, 6)
@@ -37,7 +42,7 @@ Math.PI
 23 != 23
   false
 "33" + 3
-  333
+  "333"
 Math.PI + 2
   5.141592653589793
 Math.PI + 2.45 / 4
@@ -51,7 +56,7 @@ Math.PI + 2.45 / 4
 7.0434 < 8
   true
 "Hello " + "world!"
-  Hello world!
+  "Hello world!"
 Math.min(4, 19)
   4
 Math.min(5.0454, 6, 8)
@@ -79,10 +84,22 @@ typeof(true)
 typeof(false)
   boolean
 "high" + 5
-  high5
+  "high5"
 var response = prompt("What is the name of your cat?")
   undefined
 response
   Anubis
 response + ", my best friend."
-  Anubis, my best friend.
+  "Anubis, my best friend."
+alert(response + " gets fed " + 2 + " times a day.")
+  undefined
+typeof(response)
+  string
+var nickname = "Nunu"
+  undefined
+alert("What is " + response + "' nickname?", nickname)
+  undefined
+prompt("What is " + response + "' nickname?", nickname)
+  "Nunu"
+nickname + " the Cat"
+  "Nunu the Cat"
