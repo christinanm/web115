@@ -1,14 +1,16 @@
 body {
   color: white;
-  background-color: lightblue;
+  background-color: #0463ca;
 }
 
 header {
   text-align: center;
+  font-family: "Montserrat", sans-serif;
 }
 
 p {
   font-family: "Poly", serif;
+  color: #B0D6F5
 }
 
 ul, ol {
@@ -17,22 +19,22 @@ ul, ol {
   display: table;
   margin: 0 auto;
   text-align: left;
-  max-width: 425px;
+  max-width: 500px;
 }
 
 a {
-  color: #00b4d8;
+  color: #65C2F5;
   font-family: "Roboto", serif;
 }
 
 a:hover {
-  color: #0077b6
+  color: #09B1EC;
   
 }
 
 h2, h1, .greetings-container {
   text-align: center;
-  font-family: "Poly", serif;
+  font-family: "Monsterrat", sans-serif;
 }
 
 footer {
@@ -46,13 +48,13 @@ img {
 
 figcaption {
   text-align: center;
-  color:#0077b6;
+  color:#00b4d8;
 } 
 
 .contract-container {
   display: table;
   margin: 0 auto;
   text-align: left;
-  max-width: 500px;
+  max-width: 600px;
 }
 
