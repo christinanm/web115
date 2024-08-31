@@ -1,0 +1,100 @@
+3
+  3
+5.6745323
+  5.6745323
+5 + 7
+  12
+4 - 6
+  -2
+5 * 40
+  200
+4 - (4 * 2)
+  -4
+3 / 5
+  0.6
+3 % 6
+  3
+"Hello " + "there!"
+  "Hello there!"
+3.0 / 5
+  0.6
+math.pow(5, 6)
+  {math is not defined}
+Math.POW(0.75, 60)
+  {Math.POW is not a function}
+Math.pow(2, 4);
+  16
+Math.PI
+  3.141592653589793
+15.3 / 4.3
+  3.558139534883721
+3 === 5.0
+  false
+1234 % 4.0
+  2
+43 != 43.0
+  false
+23 != 23
+  false
+"33" + 3
+  "333"
+Math.PI + 2
+  5.141592653589793
+Math.PI + 2.45 / 4
+  3.754092653589793
+7 ** 7
+  823543
+7.89 ** 0.56
+  3.17953142568161
+5 >= 4
+  true
+7.0434 < 8
+  true
+"Hello " + "world!"
+  "Hello world!"
+Math.min(4, 19)
+  4
+Math.min(5.0454, 6, 8)
+  5.0454
+Math.min((6+3), 5)
+  5
+Math.min((2+1), 6)
+  3
+Math.max(100, 1000, (4.00434 **2))
+  1000
+Math.max (0.1, 0.333, 5)
+  5
+typeof(5.6)
+  number
+typeof(5 ** 6)
+  number
+typeof(5 - 7)
+  number
+typeof("Hello")
+  string
+typeof("Hello " + 5)
+  string
+typeof(true)
+  boolean
+typeof(false)
+  boolean
+"high" + 5
+  "high5"
+var response = prompt("What is the name of your cat?")
+  undefined
+response
+  Anubis
+response + ", my best friend."
+  "Anubis, my best friend."
+alert(response + " gets fed " + 2 + " times a day.")
+  undefined
+typeof(response)
+  string
+var nickname = "Nunu"
+  undefined
+alert("What is " + response + "' nickname?", nickname)
+  undefined
+prompt("What is " + response + "' nickname?", nickname)
+  "Nunu"
+nickname + " the Cat"
+  "Nunu the Cat"
