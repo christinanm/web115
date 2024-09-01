@@ -19,7 +19,7 @@ ul, ol {
   display: table;
   margin: 0 auto;
   text-align: left;
-  max-width: 500px;
+  max-width: 700px;
 }
 
 a {
@@ -48,7 +48,7 @@ img {
 
 figcaption {
   text-align: center;
-  color:#00b4d8;
+  color:#f0efef;
 } 
 
 .contract-container {
