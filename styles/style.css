@@ -5,16 +5,16 @@ body {
 
 header {
   text-align: center;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Poly", serif;
 }
 
 p {
-  font-family: "Poly", serif;
+  font-family: "Montserrat", sans-serif;
   color: #B0D6F5
 }
 
 ul, ol {
-  font-family: "Poly", serif;
+  font-family: "Montserrat", sans-serif;
   list-style-position: inside;
   display: table;
   margin: 0 auto;
@@ -23,16 +23,16 @@ ul, ol {
 }
 
 a {
-  color: #65C2F5;
-  font-family: "Roboto", serif;
+  color: #d1dff6;
+  font-family: "Montserrat", sans-serif;
 }
 
 a:hover {
-  color: #09B1EC;
+  color: #b2cbf2;
   
 }
 
-h2, h1, .greetings-container {
+h2, h1, h3, .greetings-container {
   text-align: center;
   font-family: "Monsterrat", sans-serif;
 }
