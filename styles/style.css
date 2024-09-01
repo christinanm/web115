@@ -10,7 +10,7 @@ header {
 
 p {
   font-family: "Montserrat", sans-serif;
-  color: #B0D6F5
+  color: #f0efef
 }
 
 ul, ol {
@@ -23,12 +23,12 @@ ul, ol {
 }
 
 a {
-  color: #d1dff6;
+  color: #fffcfc;
   font-family: "Montserrat", sans-serif;
 }
 
 a:hover {
-  color: #b2cbf2;
+  color: #f0efef;
   
 }
 
