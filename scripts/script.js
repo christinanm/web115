@@ -1,5 +1,4 @@
 function fizzBuzz(){
-    alert("Submitted successfuly!");
     var firstName = document.getElementById("firstname").value;
     var lastName = document.getElementById("lastname").value;
     var middleInitial = document.getElementById("middleinitial").value;
