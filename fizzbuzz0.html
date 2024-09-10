@@ -2,7 +2,7 @@
 <html lang = "en"> 
 	<head>
     <meta charset="UTF-8">
-    <title>Cy's Computers | Home</title>
+    <title>Cy's Computers | Fizz Buzz</title>
     <link rel="stylesheet" href="./styles/style.css">
 	
     <link
@@ -20,22 +20,41 @@
   </head>
 	<body>
 		<header>
-			<h1>Cy's Computers | Home </h1>
+			<h1>Cy's Computers | Fizz Buzz </h1>
 
 			<a href="./index.html">Home</a> &#11049;
 			<a href="./introduction.html">Introduction</a> &#11049;
 			<a href="./contract.html">Contract</a> &#11049; 	
-			<a href="./brand.html">Brand</a> 		
+			<a href="./brand.html">Brand</a> &#11049;		
+			<a href="./fizzbuzz0.html">Fizz Buzz</a> 	
 		</header>
 		<main>
-			<h2>Welcome!</h2>
-						<img src="images/komasan_greeting_heart.gif" alt="Komasan Greeting">
-						<div class="greetings-container">
-							<p>My name is Christina Mekheil, I'm an Egyptian first-generation college student from CPCC!</p>
-							<p>My dream is to start my career in tech and operate my own IT shop.</p>
-							<p>This page consists of all my projects from my Web Markup and Scripting class, WEB115.</p>
-							<p>For more information, check out my <a href="./introduction.html">introduction!</a></p>
-						</div>
+			<script src="/scripts/script.js"></script>
+			<div class="greetings-container">
+			<h2 id="greeting">Welcome to Cy's Computers!</h2>
+				<form>
+					<label for="firstname">First Name:</label>
+					<input type="text" id="firstname" name="firstname" value="John">
+					
+					<br> <br>
+
+					<label for="lastname">Last Name:</label>
+					<input type="text" id="lastname" name="lastname" value="Doe">
+
+					<br> <br>
+
+					
+					<label for="middleinitial">Middle Initial:</label>
+					<input type="text" id="middleinitial" name="middleinitial" value="F.">
+
+					<br> <br>
+					
+					<button onClick="fizzBuzz()">Submit</button>
+
+					<br> <br>
+
+				</form>
+			</div>
 		</main>
 
 		<footer>
@@ -52,6 +71,5 @@
 			<small>Made with ♡ by <i>Christina Mekheil</i> &copy;2024</small>
 				
 			</footer>
-		<script src="/scripts/script.js"></script>
 	</body>
 </html>
