@@ -58,3 +58,16 @@ figcaption {
   max-width: 600px;
 }
 
+form {
+  display: table;
+  margin: 0 auto;
+  max-width: 600px;
+}
+
+.label {
+  text-align: left;
+}
+
+.input {
+  text-align: right;
+}
