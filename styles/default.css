@@ -23,13 +23,13 @@ ul, ol {
 }
 
 a {
-  color: #fffcfc;
+  color: #d2d3d6;
   font-family: "Montserrat", sans-serif;
+  text-decoration: none;
 }
 
 a:hover {
   color: #f0efef;
-  
 }
 
 h2, h1, h3, .greetings-container {
@@ -48,7 +48,7 @@ img {
 
 figcaption {
   text-align: center;
-  color:#f0efef;
+  color: #f0efef;
 } 
 
 .contract-container {

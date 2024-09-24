@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang = "en"> 
+	<head>
+    <meta charset="UTF-8">
+    <title>Cy's Computers | Fizz Buzz</title>
+	<meta name = "viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./styles/default.css">
+	
+    <link href="https://fonts.googleapis.com/css2?family=Poly:ital@0;1|Montserrat:ital,wght@0,100..900;1,100..900&display=swap"
+    rel="stylesheet">
+
+    <script
+      src="https://lint.page/kit/67ff88.js"
+      crossorigin="anonymous">
+	</script>
+  </head>
+	<body>
+		<div data-include="./components/header.html"></div>
+		<main>
+			<div class="greetings-container">
+			<h2 id="greeting">Welcome to Cy's Computers!</h2>
+				<form name="fizzbuzz">
+					<fieldset>
+						<legend>Fizz Buzz 0 (Part I)</legend>
+					<label for="firstname">First Name:</label>
+					<input type="text" id="firstname" name="firstname" placeholder="Trafalgar" required="required">
+					
+					<br> <br>
+
+					<label for="middleinitial">Middle Initial:</label>
+					<input type="text" id="middleinitial" name="middleinitial" max="1" placeholder="D." required="required">
+
+					<br> <br>
+
+					<label for="lastname">Last Name:</label>
+					<input type="text" id="lastname" name="lastname" placeholder="Law" required="required">
+
+					<br> <br>
+
+					<label for="fizzbutton"></label>
+					<input type="button" id="fizzbutton" value="Submit">
+					</fieldset>
+					<br> 
+				</form>
+				<ul id="fizzbuzzlist"></ul>
+			</div>
+		</main>
+		<script src="./scripts/script.js"></script>
+		<div data-include="./components/footer.html"></div>
+		<script src="./scripts/HTMLInclude.min.js"></script>
+	</body>
+</html>
