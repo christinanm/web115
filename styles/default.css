@@ -1,3 +1,4 @@
+
 body {
   color: white;
   background-color: #0463ca;
@@ -13,14 +14,6 @@ p {
   color: #f0efef
 }
 
-ul, ol {
-  font-family: "Montserrat", sans-serif;
-  list-style-position: inside;
-  display: table;
-  margin: 0 auto;
-  text-align: left;
-  max-width: 700px;
-}
 
 a {
   color: #E8E8E8;
@@ -29,7 +22,7 @@ a {
 }
 
 a:hover {
-  color: #f0efef;
+  color: #ECFDFE;
 }
 
 h2, h1, h3 {
@@ -71,4 +64,95 @@ form {
 
 .input {
   text-align: right;
+}
+
+td {
+  padding: 1rem;
+}
+
+table {
+  display: table;
+  margin: 0 auto;
+  font-family: "Montserrat", sans-serif;
+  min-width: 700px;
+  max-width: 700px;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+}
+
+.links {
+  color: #E8E8E8;
+  background-color: black;
+}
+
+.bg-color {
+  color: #0463CA;
+  background-color: black;
+}
+
+.poly {
+  font-family: "Poly", serif;
+}
+
+.hovering-links {
+  color: #ECFDFE;
+  background-color: black;
+}
+
+.bg-color {
+  color: #0463ca;
+}
+
+.paragraph {
+  color: #f0efef;
+  background-color: black;
+}
+
+/*ul, ol {
+  font-family: "Montserrat", sans-serif;
+  list-style-position: inside;
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 700px;
+}
+*/
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  display: inline-block;
+  position: relative;
+}
+
+ul li a {
+display: block;
+padding: 20px 20px;
+text-decoration: none;
+text-align: center;
+font-size: 20px;
+}
+
+ul li ul.dropdown-nav li {
+  display: block;
+}
+
+ul li ul.dropdown-nav {
+  width: 100%;
+  position: absolute;
+  background: #0463ca;
+  z-index: 999;
+  display: none;
+}
+
+ul li a:hover {
+  background: #112c66; 
+}
+
+ul li:hover ul.dropdown-nav {
+  display: block; 
 }
