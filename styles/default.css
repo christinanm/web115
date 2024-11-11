@@ -14,7 +14,6 @@ p {
   color: #f0efef
 }
 
-
 a {
   color: #E8E8E8;
   font-family: "Montserrat", sans-serif;
@@ -32,7 +31,10 @@ h2, h1, h3 {
 
 footer {
   text-align: center;
+  position: relative;
 }
+
+
 
 img {
   margin: auto;
@@ -43,6 +45,7 @@ figcaption {
   display: table;
   margin: 0 auto;
   color: #f0efef;
+  font-family: "Montserrat", sans-serif;
 } 
 
 main {
@@ -122,6 +125,7 @@ table {
 
 ul {
   list-style: none;
+  font-family: "Montserrat", sans-serif;
 }
 
 ul li {
@@ -155,4 +159,25 @@ ul li a:hover {
 
 ul li:hover ul.dropdown-nav {
   display: block; 
+}
+
+p a {
+  text-decoration: wavy underline;
+}
+
+ol {
+font-family: "Montserrat", sans-serif;
+text-align: left;
+list-style-position: inside;
+display: table;
+margin: 0 400px;
+min-width: 300px;
+
+}
+
+.introduction {
+  display: table;
+  margin: 0 auto;
+  text-align: left;
+  max-width: 600px;
 }
