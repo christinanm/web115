@@ -201,3 +201,14 @@ td, tr, li, ul, label, legend {
   font-family: "Montserrat", sans-serif;
 }
 
+#middleinitial {
+  width: 25px;
+}
+
+#firstname, #lastname {
+  width: 100px;
+}
+
+#resetbutton {
+  float: right;
+}
