@@ -175,8 +175,8 @@ ul li:hover ul.dropdown-nav {
   display: block; 
 }
 
-p a {
-  text-decoration: wavy underline;
+p a, footer a {
+  text-decoration: underline;
 }
 
 ol {
